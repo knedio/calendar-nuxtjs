@@ -1,0 +1,52 @@
+.input-field {
+    width: 100%;
+    color: rgba(0, 0, 0, 0.75);
+    line-height: 1.50;
+    border-color: #ccc;
+    border-bottom-width: 1px;
+    -webkit-appearance: none;
+    background-color: transparent;
+    /* margin-bottom: 0.25rem; */
+}
+.input-field:focus, .input-field:hover {
+    outline: 0;
+    border-color: '#000';
+}
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    /* color: ; */
+}
+.separator::before, .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+}
+.separator::before {
+    margin-right: .55em;
+}
+.separator::after {
+    margin-left: .55em;
+}
+.sm-spinner {
+    border: 3px solid #f3f3f3; /* Light grey */
+    border-top: 3px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    animation-name: spin;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}

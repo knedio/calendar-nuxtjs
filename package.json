@@ -1,0 +1,23 @@
+{
+  "name": "Calendar",
+  "version": "1.0.0",
+  "description": "This app is an calendar app",
+  "author": "Karl Naio Edio",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/auth": "^4.8.5",
+    "@nuxtjs/axios": "^5.9.5",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "nuxt": "^2.0.0",
+    "vue-moment": "^4.1.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.0.0"
+  }
+}
